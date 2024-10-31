@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/bankloanmanager/static/css/main.66df5b92.css",
+    "main.js": "/bankloanmanager/static/js/main.671c0fdd.js",
+    "static/js/453.5ee4d5df.chunk.js": "/bankloanmanager/static/js/453.5ee4d5df.chunk.js",
+    "index.html": "/bankloanmanager/index.html",
+    "main.66df5b92.css.map": "/bankloanmanager/static/css/main.66df5b92.css.map",
+    "main.671c0fdd.js.map": "/bankloanmanager/static/js/main.671c0fdd.js.map",
+    "453.5ee4d5df.chunk.js.map": "/bankloanmanager/static/js/453.5ee4d5df.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66df5b92.css",
+    "static/js/main.671c0fdd.js"
+  ]
+}
