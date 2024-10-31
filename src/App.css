@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #102E44;
+  padding: 10px 20px;
+  color: white;
+}
+
+.nav-menu {
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-menu li {
+  position: relative;
+  margin: 0 15px;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  list-style-type: none;
+  padding: 10px;
+  color: black;
+}
+
+.nav-menu li:hover .submenu {
+  display: block;
+}
+
+.login-container {
+  display: flex;
+  align-items: center;
+}
+
+.login-btn {
+  margin-right: 10px;
+}
+
+.footer {
+  background-color: #102E44;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}

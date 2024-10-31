@@ -1,0 +1,10 @@
+.hero-section {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #f5f5f5; /* Adjust background color as needed */
+}
+
+.hero-section h1 {
+    font-size: 2em;
+    color: #333;
+}

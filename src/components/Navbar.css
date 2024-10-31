@@ -1,0 +1,62 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #102E44;
+    padding: 10px;
+}
+
+.logo img {
+    height: 50px; /* Adjust size as needed */
+    margin-right: 20px;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu li {
+    position: relative;
+    margin-right: 20px;
+}
+
+.nav-menu .submenu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    list-style: none;
+    white-space: nowrap; /* Prevent line breaks */
+    padding: 10px; /* Optional: add padding for better appearance */
+}
+
+.nav-menu li:hover .submenu {
+    display: flex; /* Change to flex for horizontal alignment */
+}
+
+.nav-menu .submenu li {
+    margin-right: 15px; /* Add space between submenu items */
+}
+
+.navbar-message {
+    color: white;
+    margin: 0 20px;
+    flex-grow: 1; /* Allow the message to take available space */
+    text-align: center;
+}
+
+.login-container {
+    display: flex;
+    align-items: center;
+}
+
+.login-btn {
+    margin-right: 10px;
+}
+
+.hamburger {
+    cursor: pointer;
+    font-size: 24px; /* Adjust size as needed */
+    color: white;
+}
